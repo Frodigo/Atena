@@ -1,0 +1,9 @@
+.posts-component {
+    margin: 0 -15px;
+
+    &.grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

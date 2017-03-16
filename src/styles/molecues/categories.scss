@@ -1,0 +1,25 @@
+@import "../base/base";
+@import "../base/variables";
+
+.categories-component {
+    h2 {
+        margin-top: 0;
+    }
+
+    ul {
+        @extend %list-unstyled;
+
+        a {
+            display: block;
+            padding: $indent__xs 0;
+        }
+
+        ul {
+            padding-left: $indent__s;
+
+            ul {
+                padding-left: $indent;
+            }
+        }
+    }
+}

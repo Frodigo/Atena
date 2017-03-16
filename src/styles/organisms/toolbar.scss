@@ -1,0 +1,13 @@
+@import '../base/variables';
+
+.toolbar-component {
+    align-items: center;
+    border: $border-default;
+    display: flex;
+    justify-content: space-between;
+    padding: $indent;
+
+    .action {
+        margin-right: $indent;
+    }
+}

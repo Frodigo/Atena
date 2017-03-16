@@ -1,0 +1,29 @@
+%icon {
+    background: no-repeat center center;
+    display: inline-block;
+}
+
+%icon-filter {
+    @extend %icon;
+
+    background-size: 20px 26px;
+    background-image: url(../images/icons/icon-filter.svg);
+    height: 20px;
+    width: 26px;
+}
+
+%icon-grid-view {
+    @extend %icon;
+
+    background-image: url(../images/icons/icon-grid.svg);
+    height: 50px;
+    width: 50px;
+}
+
+%icon-list-view {
+    @extend %icon;
+
+    background-image: url(../images/icons/icon-list.svg);
+    height: 50px;
+    width: 50px;
+}

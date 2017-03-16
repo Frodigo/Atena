@@ -1,0 +1,9 @@
+body {
+    min-width: 320px;
+}
+
+.container {
+    margin: 0 auto;
+    width: $container-width;
+    padding: 0 $indent;
+}
