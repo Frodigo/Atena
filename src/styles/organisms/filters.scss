@@ -1,0 +1,26 @@
+@import "../base/variables";
+
+$listing-filters-opened-left-position: 0;
+
+.filters-component {
+    background-color: $color-white;
+    border: $border-default;
+    border-left: 0;
+    padding: $indent;
+    left: -200px;
+    position: fixed;
+    top: 80px;
+    transition: left 0.3s;
+    width: 200px;
+
+    .action.toggle-filters {
+        position: absolute;
+        top: 15px;
+        right: -50px;
+    }
+
+    .filters-opened & {
+        left: $listing-filters-opened-left-position;
+    }
+}
+

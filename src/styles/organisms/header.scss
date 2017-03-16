@@ -1,0 +1,6 @@
+@import "../base/variables";
+
+.header-component {
+    border-bottom: 1px solid $border-color;
+    padding: $indent 0;
+}

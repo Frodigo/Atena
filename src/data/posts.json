@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "title": "Magento 2",
+        "image": "http://via.placeholder.com/150x150",
+        "author": {
+            "name": "Marcin Kwiatkowski",
+            "url": "http://atena.dev/users/1"
+        },
+        "date": 1496601477402,
+        "url": "http;//atena.dev/products/1",
+        "comments": {
+            "count": 10
+        },
+        "recommended": {
+            "count": 15
+        }
+    },
+    {
+        "id": 2,
+        "title": "Angular",
+        "image": "http://via.placeholder.com/150x150",
+        "author": {
+            "name": "Marcin Kwiatkowski",
+            "url": "http://atena.dev/users/1"
+        },
+        "date": 1496601477402,
+        "url": "http;//atena.dev/products/2",
+        "comments": {
+            "count": 11
+        },
+        "recommended": {
+            "count": 10
+        }
+    },
+    {
+        "id": 3,
+        "title": "React",
+        "image": "http://via.placeholder.com/150x150",
+        "author": {
+            "name": "Marcin Kwiatkowski",
+            "url": "http://atena.dev/users/1"
+        },
+        "date": 1496601477402,
+        "url": "http;//atena.dev/products/3",
+        "comments": {
+            "count": 9
+        },
+        "recommended": {
+            "count": 22
+        }
+    },
+    {
+        "id": 4,
+        "title": "NodeJS",
+        "image": "http://via.placeholder.com/150x150",
+        "author": {
+            "name": "Marcin Kwiatkowski",
+            "url": "http://atena.dev/users/1"
+        },
+        "date": 1496601477402,
+        "url": "http;//atena.dev/products/4",
+        "comments": {
+            "count": 20
+        },
+        "recommended": {
+            "count": 115
+        }
+    },
+    {
+        "id": 5,
+        "title": "Wordpress",
+        "image": "http://via.placeholder.com/150x150",
+        "author": {
+            "name": "Marcin Kwiatkowski",
+            "url": "http://atena.dev/users/1"
+        },
+        "date": 1496601477402,
+        "url": "http;//atena.dev/products/5",
+        "comments": {
+            "count": 11
+        },
+        "recommended": {
+            "count": 5
+        }
+    },
+    {
+        "id": 6,
+        "title": "Redux",
+        "image": "http://via.placeholder.com/150x150",
+        "author": {
+            "name": "Marcin Kwiatkowski",
+            "url": "http://atena.dev/users/1"
+        },
+        "date": 1496601477402,
+        "url": "http;//atena.dev/products/6",
+        "comments": {
+            "count": 101
+        },
+        "recommended": {
+            "count": 150
+        }
+    }
+]

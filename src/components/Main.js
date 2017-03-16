@@ -1,19 +1,19 @@
 require('normalize.css/normalize.css');
-require('styles/App.css');
+require('styles/App.scss');
 
 import React from 'react';
+import Header from './HeaderComponent';
+import Listing from './../containers/listing';
+import { Provider } from 'react-redux';
+import listingStore from './../stores/listing';
 
-class AppComponent extends React.Component {
-  render() {
-    return (
-      <div className="index">
-        <div className="notice">Hello world!</div>
-      </div>
-    );
-  }
-}
-
-AppComponent.defaultProps = {
-};
+const AppComponent = () => (
+    <div className="index">
+        <Header/>
+        <Provider store={listingStore}>
+            <Listing/>
+        </Provider>
+    </div>
+);
 
 export default AppComponent;

@@ -1,0 +1,48 @@
+{
+    "id": 1,
+    "name": "Root",
+    "url": "http://atena.dev/listing",
+    "description": "Lorem ipsum",
+    "image": "http://placehold.it/500x200",
+    "items": [
+        {
+            "id": 2,
+            "name": "Frontend",
+            "url": "http://atena.dev/listing/frontend",
+            "description": "Lorem ipsum",
+            "image": "http://placehold.it/500x200",
+            "items": [
+                {
+                    "id": 3,
+                    "name": "Angular",
+                    "url": "http://atena.dev/listing/frontend/angular",
+                    "description": "Lorem ipsum",
+                    "image": "http://placehold.it/500x200"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Backend",
+            "url": "http://atena.dev/listing/backend",
+            "description": "Lorem ipsum",
+            "image": "http://placehold.it/500x200",
+            "items": [
+                {
+                    "id": 5,
+                    "name": "Magento 2",
+                    "url": "http://atena.dev/listing/backend/magento-2",
+                    "description": "Lorem ipsum",
+                    "image": "http://placehold.it/500x200"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "DevOps",
+            "url": "http://atena.dev/listing/devops",
+            "description": "Lorem ipsum",
+            "image": "http://placehold.it/500x200"
+        }
+    ]
+}

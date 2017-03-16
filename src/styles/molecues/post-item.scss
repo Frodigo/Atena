@@ -1,0 +1,79 @@
+@import '../base/variables';
+
+.post-item {
+    border: $border-default;
+    display: flex;
+    margin: $indent;
+    padding: $indent;
+
+    &__title {
+        margin: $indent 0;
+    }
+
+    &__image {
+        background: #f1f1f1 no-repeat center center;
+        background-size: cover;
+        border: $border-default;
+        margin: 0;
+
+        &__holder {
+            display: block;
+        }
+    }
+
+    &__footer {
+        display: flex;
+    }
+
+    .list & {
+        justify-content: space-between;
+
+        .post-item__image__holder {
+            flex: 1 1 20%;
+        }
+
+        .post-item__image {
+
+            height: 150px;
+        }
+
+        .post-item__section {
+            flex: 1 1 80%;
+            padding-left: $indent;
+        }
+
+        .post-item__footer {
+            justify-content: flex-start;
+            margin-top: $indent;
+
+            button {
+                &:last-child {
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+
+    .grid & {
+        flex-direction: column;
+        width: calc(100%/3 - 30px);
+
+        .post-item__image {
+            height: 200px;
+            width: 100%;
+        }
+
+        .post-item__title {
+            margin-bottom: $indent__s;
+        }
+
+        .post-item__meta {
+            display: block;
+            margin-bottom: $indent__s;
+        }
+
+        .post-item__footer {
+            justify-content: space-between;
+        }
+    }
+}

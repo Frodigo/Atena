@@ -1,0 +1,16 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+$listing-filters-closed-padding: 70px;
+$listing-filters-opened-padding: 300px;
+
+.listing-component {
+
+    padding: $indent__lg $indent 0 $listing-filters-closed-padding;
+    position: relative;
+    transition: padding 0.3s;
+
+    &.filters-opened {
+        padding-left: $listing-filters-opened-padding;
+    }
+}
