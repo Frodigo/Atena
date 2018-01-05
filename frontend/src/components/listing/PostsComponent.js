@@ -47,7 +47,7 @@ PostsComponent.propTypes = {
             name: PropTypes.string,
             url: PropTypes.string
         }).isRequired,
-        date: PropTypes.number.isRequired,
+        date: PropTypes.string.isRequired,
         url: PropTypes.string.isRequired,
         comments: PropTypes.object,
         recommended: PropTypes.object

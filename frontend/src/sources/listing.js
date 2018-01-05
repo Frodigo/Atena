@@ -12,7 +12,7 @@ import {
 
 
 export function fetchPosts(url, filters) {
-    let requestUrl = `${url}?sort_order=${filters.sortOrder}`;
+    let requestUrl = `${url}?sortOrder=${filters.sortOrder}`;
     return (dispatch) => {
         dispatch(postsIsLoading(true));
         fetch(requestUrl)
@@ -24,7 +24,7 @@ export function fetchPosts(url, filters) {
                 return response;
             })
             .then((response) => response.json())
-            .then((items) => dispatch(getPosts(items)))
+            .then((data) => dispatch(getPosts(data.posts)))
             .catch(() => dispatch(postsHasErrored(true)));
     };
 }

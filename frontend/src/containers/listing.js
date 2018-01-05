@@ -8,7 +8,7 @@ import {
 import {fetchPosts, fetchCategories, fetchTags} from './../sources/listing'
 import PostsList from '../components/PostsListComponent';
 
-const postsDataUrl = 'http://localhost:8000/data/posts.json';
+const postsDataUrl = 'http://localhost:3000/api/posts';
 const categoriesDataUrl = 'http://localhost:8000/data/categories.json';
 const tagsDataUrl = 'http://localhost:8000/data/tags.json';
 

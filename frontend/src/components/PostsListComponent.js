@@ -10,7 +10,6 @@ import classnames from 'classnames';
 require('styles/organisms/listing.scss');
 
 // TODO: move to config
-require('file-loader?name=posts.json&outputPath=data/');
 require('file-loader?name=categories.json&outputPath=data/');
 
 class ListingComponent extends React.Component {
